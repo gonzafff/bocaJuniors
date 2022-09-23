@@ -13,13 +13,20 @@ text-align: center;
 
 }
 
+h3{
+    color: rgb(197, 200, 30);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+    }
+
 header{
     background-color:#023F86;
     padding: 10px;
     position: relative;
     
     
-}
+} 
 
 a{
     text-decoration: none;
