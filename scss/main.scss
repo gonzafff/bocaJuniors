@@ -1,0 +1,54 @@
+@import "galeria";
+
+
+.flexCaja{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color:#fff;
+    height: 500px;  
+div{
+    font-family: 'Montserrat', sans-serif;
+    height: 220px;
+    width: 500px;
+    
+    font-size: 20px;
+
+
+    background-color: gray;
+    border: solid 1px gray;
+    text-align: center;
+    color: rgb(197, 200, 30);
+    margin-top: 5px;
+    
+}
+&:hover{
+
+    background-color: #023F86;
+   
+    transition: all 1s;
+    }
+}
+ 
+
+h1{
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+    }
+    
+    h3{
+        color: rgb(197, 200, 30);
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        
+        }
+
+        
+        footer{
+            font-family: 'Montserrat', sans-serif;
+            background-color:#023F86;
+            padding: 5px;
+             }
