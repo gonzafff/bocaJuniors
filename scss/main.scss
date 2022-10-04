@@ -32,14 +32,14 @@ div:hover{
 }
  
 
-h1{
+.h1{
     color:rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     
     }
     
-    h3{
+    .h3{
         color: rgb(197, 200, 30);
         font-family: 'Montserrat', sans-serif;
         text-align: center;
@@ -47,8 +47,44 @@ h1{
         }
 
         
-        footer{
+        .footer{
             font-family: 'Montserrat', sans-serif;
             background-color:#023F86;
             padding: 5px;
              }
+
+
+             @each $var in list {
+                
+             }
+
+/* maps */
+    $redes:(
+        twitter: blue,
+        facebook: lightblue,
+        whatsapp: green
+    );
+    
+
+    @each $red , $color in $redes{
+        .btn--#{$red}{
+            background-color: $color;
+        }
+    }
+
+.flexCaja--cajaColor{
+    @extend .flexCaja;
+    background-color:rgb(148, 141, 250);
+}
+
+
+    @mixin color ($color) {
+        color: $color;
+
+    }
+
+    .h1{
+        @include color(rgb(215, 219, 16));
+    }
+
+    

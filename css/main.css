@@ -1,10 +1,10 @@
-.flexCaja {
+.flexCaja, .flexCaja--cajaColor {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   background-color: #fff;
   height: 500px; }
-  .flexCaja div {
+  .flexCaja div, .flexCaja--cajaColor div {
     font-family: 'Montserrat', sans-serif;
     height: 220px;
     width: 500px;
@@ -14,21 +14,37 @@
     text-align: center;
     color: #c5c81e;
     margin-top: 5px; }
-  .flexCaja div:hover {
+  .flexCaja div:hover, .flexCaja--cajaColor div:hover {
     background-color: #023F86;
     transition: all 1s; }
 
-h1 {
+.h1 {
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-align: center; }
 
-h3 {
+.h3 {
   color: #c5c81e;
   font-family: 'Montserrat', sans-serif;
   text-align: center; }
 
-footer {
+.footer {
   font-family: 'Montserrat', sans-serif;
   background-color: #023F86;
   padding: 5px; }
+
+/* maps */
+.btn--twitter {
+  background-color: blue; }
+
+.btn--facebook {
+  background-color: lightblue; }
+
+.btn--whatsapp {
+  background-color: green; }
+
+.flexCaja--cajaColor {
+  background-color: #948dfa; }
+
+.h1 {
+  color: #d7db10; }
