@@ -14,7 +14,7 @@
     text-align: center;
     color: #c5c81e;
     margin-top: 5px; }
-  .flexCaja:hover {
+  .flexCaja div:hover {
     background-color: #023F86;
     transition: all 1s; }
 
